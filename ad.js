@@ -24,5 +24,6 @@ window.addEventListener("message", (e) => {
         titlediv.innerHTML = data.title;
     if(data.desc != "")
         descdiv.innerHTML = data.desc;
+    if(data.img_url != "")
     imgdiv.style.backgroundImage = "url('" + data.img_url + "')";
 })

@@ -1,0 +1,26 @@
+body, html {
+    height: 100%;
+    padding: 15px;
+  }
+  
+  .window_effect {
+    background-image: url('https://i.kinja-img.com/gawker-media/image/upload/c_fill,f_auto,fl_progressive,g_center,h_675,pg_1,q_80,w_1200/qt1pq58r827iyyvugjfr.jpg');
+    height: 25%; 
+    width: 100%;
+  
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .title{
+      background-color:cyan;
+      font-size: large;
+      font-weight: 600;
+  }
+
+  .desc{
+      background-color:cyan;
+      font-size: large;
+      font-weight: 600;
+  }

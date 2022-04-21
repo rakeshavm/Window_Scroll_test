@@ -1,0 +1,77 @@
+body, html {
+    height: 100%;
+  }
+.adfr{
+    position: relative;
+    left: 30%;
+    transform: translateX(-50%);
+    margin: 20px;  
+    border: 1px solid grey;
+    border-radius: 40px;
+    height:80%;
+    width:50%; 
+    min-width: 300px; 
+    min-height: 568px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.container{
+    display: flex;
+    height: 100%;
+}
+.formclass{
+    flex: 0 0 40%;
+    margin: 10px;
+    padding-top: 200px;
+    
+}
+.formbody{
+    position: relative;
+    left: 70%;
+    transform: translateX(-50%);
+    height:80%;
+    width:30%; 
+}
+.ifr{
+    flex: 0 0 60%;
+    margin: 10px;
+}
+.formele{
+    margin:5px;
+    width: 100%;
+    font-weight: 500;
+}
+
+#sub {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 10px 15px;
+    margin: 8px 2px;
+    background-color:dodgerblue;
+    color: whitesmoke;
+}
+
+.inp {
+    width: 100%;
+    padding: 10px 15px;
+    margin: 8px 2px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+@media only screen and (max-width: 1000px) {
+    .container {
+        display: block;
+    }
+    .formclass{
+        padding-top: 0;
+    }
+    .formbody{
+        left: 30%;
+    }
+    .adfr{
+        left: 50%;
+    }
+}
